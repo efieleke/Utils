@@ -50,6 +50,7 @@ Eric Fieleke</Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <RepositoryUrl>https://github.com/efieleke/Utils</RepositoryUrl>
     <PackageTags>Multimap OrderedDictionary SinglyLinkedList Cache Pool ConcurrentHashSet Permutations Counter AtLeast AsReadOnly SubList Sift Split FileBackedCollection "local storage" ThreadSafeRandom Shuffle PartialShuffle UpperBound LowerBound MergeSort InsertSorted TaskRunner</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
