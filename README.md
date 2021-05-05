@@ -3,7 +3,7 @@ Utils
 
 Utils is a C# library of various classes mainly related to collections, caching, file-based collections, sorting, searching, randomizing, and tasks. These include:
 
-Sayer.Collections
+Collections
   * MultiMap
   * OrderedDictionary
   * SinglyLinkedList
@@ -18,26 +18,26 @@ Sayer.Collections
   * ListExtensions (GetSubList, Sift, Split, Swap, IndexOf, IndexOfMinimum, Fill, Reverse, RemoveMatches, RemoveSpan, AddAll, AsReadOnly)
   * NameValueCollectionExtensions
 
-Sayer.FileBackedCollections (fast file-based IO using little memory; these implement standard collection interfaces)
+FileBackedCollections (fast file-based IO using little memory; these implement standard collection interfaces)
   * FileBackedDictionary and ConcurrentFileBackedDictionary
   * FileBackedList
   * FileBackedSet
   * FileBackedAppendOnlyCollection
 
-Sayer.Rand
+Rand
   * ThreadSafeRandom
   * ListExtensions (Shuffle, PartialShuffle, GetShufflingEnumerable)
 
-Sayer.Sort
+Sort
   * ListExtensions (IndexOfSorted, UpperBound, LowerBound, MergeSort, SortAll, SortRange)
   * LinkedListExtensions (InsertSorted)
   * EnumerableExtensions (GetSortedEnumerable)
 
-Sayer.Strings
+Strings
   * StringExtensions (TryParse, Parse, ToDictionary)
   * CommandLine (Parse)
 
-Sayer.Tasks
+Tasks
   * TaskRunner (runs an arbitrary number of tasks, but with a limit on the number that can be concurrently running at any one moment)
 
 Author
