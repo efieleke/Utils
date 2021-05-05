@@ -2,12 +2,64 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Eric Fieleke</Authors>
+    <Company>Sayer</Company>
+    <Description>C# library related to collections, caching, file-based collections, sorting, searching, randomizing, and tasks. These include:
+
+Collections
+  * MultiMap
+  * OrderedDictionary
+  * SinglyLinkedList
+  * Cache and ConcurrentCache
+  * Counter
+  * IPool, AbstractPool, Pool and ConcurrentPool
+  * ConcurrentHashSet
+  * Permutations
+  * EnumerableExtensions (Minimum, Maximum, AtLeast, ToMultiMap)
+  * CollectionExtensions (AsReadOnly)
+  * DictionaryExtensions (EnumerateCommonKeys, EnumerateDisjointKeys, Copy, AsReadOnly)
+  * ListExtensions (GetSubList, Sift, Split, Swap, IndexOf, IndexOfMinimum, Fill, Reverse, RemoveMatches, RemoveSpan, AddAll, AsReadOnly)
+  * NameValueCollectionExtensions
+
+FileBackedCollections (fast file-based IO using little memory; these implement standard collection interfaces)
+  * FileBackedDictionary and ConcurrentFileBackedDictionary
+  * FileBackedList
+  * FileBackedSet
+  * FileBackedAppendOnlyCollection
+
+Rand
+  * ThreadSafeRandom
+  * ListExtensions (Shuffle, PartialShuffle, GetShufflingEnumerable)
+
+Sort
+  * ListExtensions (IndexOfSorted, UpperBound, LowerBound, MergeSort, SortAll, SortRange)
+  * LinkedListExtensions (InsertSorted)
+  * EnumerableExtensions (GetSortedEnumerable)
+
+Strings
+  * StringExtensions (TryParse, Parse, ToDictionary)
+  * CommandLine (Parse)
+
+Tasks
+  * TaskRunner (runs an arbitrary number of tasks, but with a limit on the number that can be concurrently running at any one moment)
+
+Author
+----
+Eric Fieleke</Description>
+    <Copyright>Copyright (c) 2021 Eric Fieleke</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/efieleke/Utils</RepositoryUrl>
+    <PackageTags>Multimap OrderedDictionary SinglyLinkedList Cache Pool ConcurrentHashSet Permutations Counter AtLeast AsReadOnly SubList Sift Split FileBackedCollection "local storage" ThreadSafeRandom Shuffle PartialShuffle UpperBound LowerBound MergeSort InsertSorted TaskRunner</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Test\**" />
     <EmbeddedResource Remove="Test\**" />
     <None Remove="Test\**" />
+    <None Include="..\..\Utils\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

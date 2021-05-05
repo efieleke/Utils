@@ -1,7 +1,7 @@
 Utils
 =========
 
-Utils is a C# library of various classes mainly related to collections, caching, file-based collections, sorting, searching, randomizing, and tasks. These include:
+C# library related to collections, caching, file-based collections, sorting, searching, randomizing, and tasks. These include:
 
 Collections
   * MultiMap
