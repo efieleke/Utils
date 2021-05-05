@@ -7,9 +7,9 @@ Collections
   * MultiMap
   * OrderedDictionary
   * SinglyLinkedList
-  * Cache and ConcurrentCache
+  * Cache
   * Counter
-  * IPool, AbstractPool, Pool and ConcurrentPool
+  * Pool
   * ConcurrentHashSet
   * Permutations
   * EnumerableExtensions (Minimum, Maximum, AtLeast, ToMultiMap)
@@ -19,7 +19,7 @@ Collections
   * NameValueCollectionExtensions
 
 FileBackedCollections (fast file-based IO using little memory; these implement standard collection interfaces)
-  * FileBackedDictionary and ConcurrentFileBackedDictionary
+  * FileBackedDictionary
   * FileBackedList
   * FileBackedSet
   * FileBackedAppendOnlyCollection
