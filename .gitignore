@@ -1,0 +1,8 @@
+bin/
+obj/
+TestResults/
+packages/
+.vs/
+*.suo
+*.psess
+*.user
