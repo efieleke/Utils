@@ -10,9 +10,9 @@ Collections
   * MultiMap
   * OrderedDictionary
   * SinglyLinkedList
-  * Cache and ConcurrentCache
+  * Cache
   * Counter
-  * IPool, AbstractPool, Pool and ConcurrentPool
+  * Pool
   * ConcurrentHashSet
   * Permutations
   * EnumerableExtensions (Minimum, Maximum, AtLeast, ToMultiMap)
@@ -22,7 +22,7 @@ Collections
   * NameValueCollectionExtensions
 
 FileBackedCollections (fast file-based IO using little memory; these implement standard collection interfaces)
-  * FileBackedDictionary and ConcurrentFileBackedDictionary
+  * FileBackedDictionary
   * FileBackedList
   * FileBackedSet
   * FileBackedAppendOnlyCollection
@@ -52,7 +52,7 @@ Eric Fieleke</Description>
     <PackageTags>Multimap OrderedDictionary SinglyLinkedList Cache Pool ConcurrentHashSet Permutations Counter AtLeast AsReadOnly SubList Sift Split FileBackedCollection local storage ThreadSafeRandom Shuffle PartialShuffle UpperBound LowerBound MergeSort InsertSorted TaskRunner</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Sayer.Utils</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
