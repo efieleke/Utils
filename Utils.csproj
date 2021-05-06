@@ -41,13 +41,9 @@ Strings
   * CommandLine (Parse)
 
 Tasks
-  * TaskRunner (runs an arbitrary number of tasks, but with a limit on the number that can be concurrently running at any one moment)
-
-Author
-----
-Eric Fieleke</Description>
+  * TaskRunner (runs an arbitrary number of tasks, but with a limit on the number that can be concurrently running at any one moment)</Description>
     <Copyright>Copyright (c) 2021 Eric Fieleke</Copyright>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/efieleke/Utils</RepositoryUrl>
     <PackageTags>Multimap OrderedDictionary SinglyLinkedList Cache Pool ConcurrentHashSet Permutations Counter AtLeast AsReadOnly SubList Sift Split FileBackedCollection local storage ThreadSafeRandom Shuffle PartialShuffle UpperBound LowerBound MergeSort InsertSorted TaskRunner</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -59,7 +55,7 @@ Eric Fieleke</Description>
     <Compile Remove="Test\**" />
     <EmbeddedResource Remove="Test\**" />
     <None Remove="Test\**" />
-    <None Include="..\..\Utils\LICENSE.txt">
+    <None Include="LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
